@@ -1,0 +1,4 @@
+#!/bin/sh
+
+g++ -o test -I /usr/include/opencv4 test.cpp -lopencv_imgcodecs -lopencv_highgui -lopencv_core
+
